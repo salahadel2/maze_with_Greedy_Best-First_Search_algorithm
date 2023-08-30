@@ -1,7 +1,8 @@
 # maze_with_Greedy_Best-First_Search_algorithm
 maze-solving algorithm using Greedy Best-First Search algorithm
 ## Greedy Best-First search is a search algorithm that expands the node that is closest to the goal, as estimated by a heuristic function (explore the node that has the smallest value of h(n)).
-### the frontier is a priority queue that orders nodes based on a heuristic evaluation of their potential to reach the goal. It tends to prioritize nodes that appear to be closer to the goal according to the heuristic function. 
+
+### frontier:- is a priority queue that orders nodes based on a heuristic evaluation of their potential to reach the goal. It tends to prioritize nodes that appear to be closer to the goal according to the heuristic function. 
 ### Greedy Best-First search algorithm steps:-
 • Start with the initial state as the current state.
 • Maintain a priority queue (often implemented using a heap) to store the states yet to be explored, The priority is determined by the heuristic function.
