@@ -17,7 +17,6 @@ function greedy_best_first_search(problem):
     Initialize an empty priority queue frontier
     Add the initial state to the frontier with priority based on the heuristic value
     Initialize an empty set explored
-
     while frontier is not empty:
         current_node = remove the node with the highest priority from the frontier
         if current_node is the goal state:
