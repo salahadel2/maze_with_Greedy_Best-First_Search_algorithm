@@ -13,10 +13,12 @@ maze-solving algorithm using Greedy Best-First Search algorithm
 • If no successor states can be added to the queue, backtrack to the previous state and continue the search.
 
 ### Greedy Best-First search algorithm Pseudocode:-
+
 function greedy_best_first_search(problem):
     Initialize an empty priority queue frontier
     Add the initial state to the frontier with priority based on the heuristic value
     Initialize an empty set explored
+    
     while frontier is not empty:
         current_node = remove the node with the highest priority from the frontier
         if current_node is the goal state:
